@@ -1,0 +1,94 @@
+ header {
+    height: 100vh;
+    background-image: url('https://www.austinchronicle.com/binary/10f5/dont-breathe-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+ }
+
+ .header_content{
+    margin-left: 5vw;
+    padding-top: 15vw;
+
+ }
+
+ .header_billboard{
+   z-index: 2;
+   position: relative;
+    width: 24vw;
+    object-fit: cover;
+ }
+
+ .header_desc{
+   z-index: 2;
+    height: 10vh;
+    width: 50%;
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 0.1vw;
+    position: relative;
+
+
+ }
+ header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.header_buttons {
+   z-index: 2;
+   position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+
+.header_button {
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600; 
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.play_button {
+
+   background-color: #fff;
+   margin-right: 1rem;
+
+}
+.play_button:hover{
+   background-color: #e6e6e6;
+}
+.more_info_button{
+   background-color: rgba(30,30,30,0.644);
+   color: #fff;
+}
+.more_info_button:hover{
+   background-color: rgba(30,30,30,0.8);
+}
+
+.header_button svg{
+   margin-right: 0.4rem;
+}
+.header_inner_shadow {
+   z-index: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(0deg, rgb(20,20,20,1) 0%, rgb(20,20,20,0)  100%),
+   linear-gradient(180deg, rgb(20,20,20,0.7 ) 0%, rgb(20,20,20,0)  100%);
+}
+
